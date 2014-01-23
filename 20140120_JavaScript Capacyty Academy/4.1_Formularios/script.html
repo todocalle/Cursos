@@ -1,0 +1,41 @@
+<HTML>
+	<HEAD>
+		<title>Seleccion de plan de seguros</title>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" href="script.css">
+		
+	</HEAD>
+
+	<BODY>
+		<H2 align="left">Selecione Plan de Seguros</H2>
+		<FORM action="#">
+			<p>
+				<LABEL for="dirEmail">Introduzca su direccion de correo:&nbsp;&nbsp;&nbsp;&nbsp; <input id="dirEmail" type="text" size="30" class="req email" /></LABEL>
+				<br/>
+				<LABEL for="dirEmail2">Introduzca de nuevo su direccion de correo: <input id="dirEmail2" type="text" size="30" class="req email" /></LABEL>
+			</p>
+			<p>
+				<LABEL for="plan">Escoja el tipo de plan deseado:
+				<select id="plan" class="req">
+					<option value="" selected="selected">Escoja un plan</option>
+					<option value="basico">Basico</option>
+					<option value="superior">Superior</option>
+					<option value="superior plus">Superior Plus</option>
+				</select>
+				</LABEL>
+			</p>
+			<p>Cobertura
+				<LABEL for="personal"> <input type="checkbox" id="personal" values="Yes" />Individual (solo 2 personas)</LABEL>
+				<LABEL for="familiar"> <input type="checkbox" id="familiar" values="Yes" />Familiar</LABEL>
+			</p>
+			<p>
+				<LABEL for="totalPersonas">Cantidad de Personas:&nbsp;&nbsp;
+					<input type="radio" id="dosPersonas" name="totalPersonas" value="dosPersonas" class="radio" />Dos
+					<input type="radio" id="cuatroPersonas" name="totalPersonas" value="cuatroPersonas" class="radio" />Cuatro o más
+				</LABEL>
+			</p>
+			<p><input type="submit" value="Solicitar" />&nbsp;&nbsp; <input type="reset" /> </p>
+			
+		</FORM>
+	</BODY>
+</HTML>

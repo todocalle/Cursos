@@ -1,0 +1,26 @@
+body{
+	color: #000;
+	background-color: #278;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 40px;
+
+}
+input.invalido{
+	background-color: #FF9;
+	border: 2px red inset;
+}
+label.invalido{
+	color: #F00;
+	font-weight: bold;
+}
+
+select{
+	margin-left: 80px;
+}
+input{
+	margin-left: :30px;
+}
+input+select, input+input{
+	margin-left: 20px;
+}
