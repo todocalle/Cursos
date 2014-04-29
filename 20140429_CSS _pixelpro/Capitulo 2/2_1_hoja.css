@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body
+{
+	background-color: red;
+	background-image:url(http://www.hurtadodavid.com/hurtadodavid.com/crojo.jpg);
+	
+	/*background-image: url(imagenes/trek.jpg);*/
+
+}
+p
+{
+	color: yellow;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+	font-family: "Times New Roman",Georgia,Serif;
+	font-size: 30px;
+	background-image:url(imagenes/trek.jpg);
+}
+.imagen
+{
+	
+}

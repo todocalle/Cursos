@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body
+{
+	background: red url(http://www.hurtadodavid.com/hurtadodavid.com/crojo.jpg) no-repeat center fixed;
+	/*
+	background-color: red;
+	background-image:url(http://www.hurtadodavid.com/hurtadodavid.com/crojo.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	*/
+}

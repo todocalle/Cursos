@@ -1,0 +1,7 @@
+@charset "UTF-8";
+body
+{
+	/*background-color: red;*/
+	background-image:url(Imagenes/fondorep1.jpg);
+	background-repeat: repeat-x;
+}
